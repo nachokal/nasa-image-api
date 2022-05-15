@@ -1,0 +1,53 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.data {
+  margin-top: 80px;
+}
+
+.image {
+  display: block;
+  width: 95%;
+  margin: 60px auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
